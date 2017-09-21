@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1811D0D51F73B28700352CB2 /* ZJPhotograph.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811D0D41F73B28700352CB2 /* ZJPhotograph.m */; };
+		1811D0E11F73B3E400352CB2 /* ZJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811D0D81F73B3E400352CB2 /* ZJNavigationController.m */; };
+		1811D0E21F73B3E400352CB2 /* ZJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811D0DA1F73B3E400352CB2 /* ZJTabBar.m */; };
+		1811D0E31F73B3E400352CB2 /* ZJTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811D0DC1F73B3E400352CB2 /* ZJTabBarButton.m */; };
+		1811D0E41F73B3E400352CB2 /* ZJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811D0DE1F73B3E400352CB2 /* ZJTabBarController.m */; };
+		1811D0E51F73B3E400352CB2 /* ZJTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811D0E01F73B3E400352CB2 /* ZJTabBarItem.m */; };
+		1811D0E81F73B45700352CB2 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811D0E71F73B45700352CB2 /* MyTabBarController.m */; };
+		1811D0EB1F73B60300352CB2 /* ZJPhotographBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811D0EA1F73B60300352CB2 /* ZJPhotographBottomView.m */; };
+		1811D0EE1F73BDB000352CB2 /* ZJPhotographTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811D0ED1F73BDB000352CB2 /* ZJPhotographTopView.m */; };
+		18EE50AD1F70013400A5C606 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE50AC1F70013400A5C606 /* main.m */; };
+		18EE50B01F70013400A5C606 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE50AF1F70013400A5C606 /* AppDelegate.m */; };
+		18EE50B31F70013400A5C606 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE50B21F70013400A5C606 /* ViewController.m */; };
+		18EE50B61F70013400A5C606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EE50B41F70013400A5C606 /* Main.storyboard */; };
+		18EE50B81F70013400A5C606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EE50B71F70013400A5C606 /* Assets.xcassets */; };
+		18EE50BB1F70013400A5C606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EE50B91F70013400A5C606 /* LaunchScreen.storyboard */; };
+		ABFF191EDAE9DDAF1C83C6EE /* Pods_ZJVideoRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D15C4EA4E064CA836E2720 /* Pods_ZJVideoRecording.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1811D0D11F73B03700352CB2 /* ZJCommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCommonHeader.h; sourceTree = "<group>"; };
+		1811D0D31F73B28700352CB2 /* ZJPhotograph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPhotograph.h; sourceTree = "<group>"; };
+		1811D0D41F73B28700352CB2 /* ZJPhotograph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPhotograph.m; sourceTree = "<group>"; };
+		1811D0D71F73B3E400352CB2 /* ZJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJNavigationController.h; sourceTree = "<group>"; };
+		1811D0D81F73B3E400352CB2 /* ZJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJNavigationController.m; sourceTree = "<group>"; };
+		1811D0D91F73B3E400352CB2 /* ZJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTabBar.h; sourceTree = "<group>"; };
+		1811D0DA1F73B3E400352CB2 /* ZJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTabBar.m; sourceTree = "<group>"; };
+		1811D0DB1F73B3E400352CB2 /* ZJTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTabBarButton.h; sourceTree = "<group>"; };
+		1811D0DC1F73B3E400352CB2 /* ZJTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTabBarButton.m; sourceTree = "<group>"; };
+		1811D0DD1F73B3E400352CB2 /* ZJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTabBarController.h; sourceTree = "<group>"; };
+		1811D0DE1F73B3E400352CB2 /* ZJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTabBarController.m; sourceTree = "<group>"; };
+		1811D0DF1F73B3E400352CB2 /* ZJTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTabBarItem.h; sourceTree = "<group>"; };
+		1811D0E01F73B3E400352CB2 /* ZJTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTabBarItem.m; sourceTree = "<group>"; };
+		1811D0E61F73B45700352CB2 /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		1811D0E71F73B45700352CB2 /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		1811D0E91F73B60300352CB2 /* ZJPhotographBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPhotographBottomView.h; sourceTree = "<group>"; };
+		1811D0EA1F73B60300352CB2 /* ZJPhotographBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPhotographBottomView.m; sourceTree = "<group>"; };
+		1811D0EC1F73BDB000352CB2 /* ZJPhotographTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPhotographTopView.h; sourceTree = "<group>"; };
+		1811D0ED1F73BDB000352CB2 /* ZJPhotographTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPhotographTopView.m; sourceTree = "<group>"; };
+		18EE50A81F70013400A5C606 /* ZJVideoRecording.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJVideoRecording.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EE50AC1F70013400A5C606 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18EE50AE1F70013400A5C606 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18EE50AF1F70013400A5C606 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18EE50B11F70013400A5C606 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18EE50B21F70013400A5C606 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18EE50B51F70013400A5C606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18EE50B71F70013400A5C606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EE50BA1F70013400A5C606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EE50BC1F70013400A5C606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AB3909CFA3A09DF4F8EDCF7 /* Pods-ZJVideoRecording.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJVideoRecording.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJVideoRecording/Pods-ZJVideoRecording.debug.xcconfig"; sourceTree = "<group>"; };
+		95D15C4EA4E064CA836E2720 /* Pods_ZJVideoRecording.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJVideoRecording.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C020D06B05C79A431DC879AB /* Pods-ZJVideoRecording.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJVideoRecording.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJVideoRecording/Pods-ZJVideoRecording.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EE50A51F70013400A5C606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFF191EDAE9DDAF1C83C6EE /* Pods_ZJVideoRecording.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1811D0D21F73B27500352CB2 /* ZJPhotograph */ = {
+			isa = PBXGroup;
+			children = (
+				1811D0D31F73B28700352CB2 /* ZJPhotograph.h */,
+				1811D0D41F73B28700352CB2 /* ZJPhotograph.m */,
+				1811D0E91F73B60300352CB2 /* ZJPhotographBottomView.h */,
+				1811D0EA1F73B60300352CB2 /* ZJPhotographBottomView.m */,
+				1811D0EC1F73BDB000352CB2 /* ZJPhotographTopView.h */,
+				1811D0ED1F73BDB000352CB2 /* ZJPhotographTopView.m */,
+			);
+			path = ZJPhotograph;
+			sourceTree = "<group>";
+		};
+		1811D0D61F73B3E400352CB2 /* ZJTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1811D0D71F73B3E400352CB2 /* ZJNavigationController.h */,
+				1811D0D81F73B3E400352CB2 /* ZJNavigationController.m */,
+				1811D0D91F73B3E400352CB2 /* ZJTabBar.h */,
+				1811D0DA1F73B3E400352CB2 /* ZJTabBar.m */,
+				1811D0DB1F73B3E400352CB2 /* ZJTabBarButton.h */,
+				1811D0DC1F73B3E400352CB2 /* ZJTabBarButton.m */,
+				1811D0DD1F73B3E400352CB2 /* ZJTabBarController.h */,
+				1811D0DE1F73B3E400352CB2 /* ZJTabBarController.m */,
+				1811D0DF1F73B3E400352CB2 /* ZJTabBarItem.h */,
+				1811D0E01F73B3E400352CB2 /* ZJTabBarItem.m */,
+			);
+			path = ZJTabBar;
+			sourceTree = "<group>";
+		};
+		18EE509F1F70013400A5C606 = {
+			isa = PBXGroup;
+			children = (
+				18EE50AA1F70013400A5C606 /* ZJVideoRecording */,
+				18EE50A91F70013400A5C606 /* Products */,
+				FA626DFF8B08AE202C9CE84C /* Pods */,
+				B91BB5B7190C18F71134C285 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18EE50A91F70013400A5C606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EE50A81F70013400A5C606 /* ZJVideoRecording.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EE50AA1F70013400A5C606 /* ZJVideoRecording */ = {
+			isa = PBXGroup;
+			children = (
+				1811D0D61F73B3E400352CB2 /* ZJTabBar */,
+				1811D0D21F73B27500352CB2 /* ZJPhotograph */,
+				18EE50AE1F70013400A5C606 /* AppDelegate.h */,
+				18EE50AF1F70013400A5C606 /* AppDelegate.m */,
+				18EE50B11F70013400A5C606 /* ViewController.h */,
+				18EE50B21F70013400A5C606 /* ViewController.m */,
+				1811D0D11F73B03700352CB2 /* ZJCommonHeader.h */,
+				1811D0E61F73B45700352CB2 /* MyTabBarController.h */,
+				1811D0E71F73B45700352CB2 /* MyTabBarController.m */,
+				18EE50B41F70013400A5C606 /* Main.storyboard */,
+				18EE50B71F70013400A5C606 /* Assets.xcassets */,
+				18EE50B91F70013400A5C606 /* LaunchScreen.storyboard */,
+				18EE50BC1F70013400A5C606 /* Info.plist */,
+				18EE50AB1F70013400A5C606 /* Supporting Files */,
+			);
+			path = ZJVideoRecording;
+			sourceTree = "<group>";
+		};
+		18EE50AB1F70013400A5C606 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18EE50AC1F70013400A5C606 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B91BB5B7190C18F71134C285 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95D15C4EA4E064CA836E2720 /* Pods_ZJVideoRecording.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA626DFF8B08AE202C9CE84C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AB3909CFA3A09DF4F8EDCF7 /* Pods-ZJVideoRecording.debug.xcconfig */,
+				C020D06B05C79A431DC879AB /* Pods-ZJVideoRecording.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EE50A71F70013400A5C606 /* ZJVideoRecording */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EE50BF1F70013400A5C606 /* Build configuration list for PBXNativeTarget "ZJVideoRecording" */;
+			buildPhases = (
+				804C9918769B6E9A1865B729 /* [CP] Check Pods Manifest.lock */,
+				18EE50A41F70013400A5C606 /* Sources */,
+				18EE50A51F70013400A5C606 /* Frameworks */,
+				18EE50A61F70013400A5C606 /* Resources */,
+				C29EEE468E75327E5D29843C /* [CP] Embed Pods Frameworks */,
+				34CAC73C7DAFF06AC71E8018 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJVideoRecording;
+			productName = ZJVideoRecording;
+			productReference = 18EE50A81F70013400A5C606 /* ZJVideoRecording.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EE50A01F70013400A5C606 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "郑俱";
+				TargetAttributes = {
+					18EE50A71F70013400A5C606 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XX9353D4G7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18EE50A31F70013400A5C606 /* Build configuration list for PBXProject "ZJVideoRecording" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EE509F1F70013400A5C606;
+			productRefGroup = 18EE50A91F70013400A5C606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EE50A71F70013400A5C606 /* ZJVideoRecording */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EE50A61F70013400A5C606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EE50BB1F70013400A5C606 /* LaunchScreen.storyboard in Resources */,
+				18EE50B81F70013400A5C606 /* Assets.xcassets in Resources */,
+				18EE50B61F70013400A5C606 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34CAC73C7DAFF06AC71E8018 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJVideoRecording/Pods-ZJVideoRecording-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		804C9918769B6E9A1865B729 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C29EEE468E75327E5D29843C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJVideoRecording/Pods-ZJVideoRecording-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EE50A41F70013400A5C606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EE50B31F70013400A5C606 /* ViewController.m in Sources */,
+				1811D0E51F73B3E400352CB2 /* ZJTabBarItem.m in Sources */,
+				1811D0D51F73B28700352CB2 /* ZJPhotograph.m in Sources */,
+				1811D0E81F73B45700352CB2 /* MyTabBarController.m in Sources */,
+				1811D0E11F73B3E400352CB2 /* ZJNavigationController.m in Sources */,
+				1811D0E41F73B3E400352CB2 /* ZJTabBarController.m in Sources */,
+				1811D0E21F73B3E400352CB2 /* ZJTabBar.m in Sources */,
+				18EE50B01F70013400A5C606 /* AppDelegate.m in Sources */,
+				1811D0EB1F73B60300352CB2 /* ZJPhotographBottomView.m in Sources */,
+				18EE50AD1F70013400A5C606 /* main.m in Sources */,
+				1811D0EE1F73BDB000352CB2 /* ZJPhotographTopView.m in Sources */,
+				1811D0E31F73B3E400352CB2 /* ZJTabBarButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18EE50B41F70013400A5C606 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EE50B51F70013400A5C606 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18EE50B91F70013400A5C606 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EE50BA1F70013400A5C606 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EE50BD1F70013400A5C606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18EE50BE1F70013400A5C606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EE50C01F70013400A5C606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB3909CFA3A09DF4F8EDCF7 /* Pods-ZJVideoRecording.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XX9353D4G7;
+				INFOPLIST_FILE = ZJVideoRecording/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhegnju.ZJVideoRecording;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18EE50C11F70013400A5C606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C020D06B05C79A431DC879AB /* Pods-ZJVideoRecording.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XX9353D4G7;
+				INFOPLIST_FILE = ZJVideoRecording/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhegnju.ZJVideoRecording;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EE50A31F70013400A5C606 /* Build configuration list for PBXProject "ZJVideoRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EE50BD1F70013400A5C606 /* Debug */,
+				18EE50BE1F70013400A5C606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EE50BF1F70013400A5C606 /* Build configuration list for PBXNativeTarget "ZJVideoRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EE50C01F70013400A5C606 /* Debug */,
+				18EE50C11F70013400A5C606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18EE50A01F70013400A5C606 /* Project object */;
+}
