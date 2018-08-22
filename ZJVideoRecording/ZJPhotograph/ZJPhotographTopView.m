@@ -10,7 +10,7 @@
 
 @interface ZJPhotographTopView()
 /**
- 拍照按钮
+ 切换按钮
  */
 @property(strong,nonatomic) UIButton * switchBtn;
 

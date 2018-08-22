@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "ZJPhotograph.h"
-
+#import "ZJVideoController.h"
 @interface ViewController ()
 
 @end
@@ -18,12 +18,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    ZJPhotograph * vc  = [[ZJPhotograph alloc]init];
+    self.view.backgroundColor = [UIColor whiteColor];
     
-    [self.navigationController pushViewController:vc animated:NO];
+    
     
 }
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+//    ZJPhotograph * vc  = [[ZJPhotograph alloc]init];
+//
+//    [self.navigationController pushViewController:vc animated:NO];
+    
+    ZJVideoController * videoController = [[ZJVideoController alloc]init];
+     [self.navigationController pushViewController:videoController animated:NO];
 
+}
 
 
 @end

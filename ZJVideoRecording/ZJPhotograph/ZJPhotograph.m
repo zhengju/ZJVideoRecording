@@ -116,7 +116,7 @@ typedef void(^PropertyChangeBlock)(AVCaptureDevice *captureDevice);
     [super viewDidDisappear:animated];
     [self.captureSession stopRunning];
 }
-#pragma mark 拍照
+#pragma mark -- 拍照
 - (void)takeButtonClick{
     
     
@@ -394,6 +394,7 @@ typedef void(^PropertyChangeBlock)(AVCaptureDevice *captureDevice);
     NSData * dataImage = [AVCapturePhotoOutput JPEGPhotoDataRepresentationForJPEGSampleBuffer:photoSampleBuffer previewPhotoSampleBuffer:previewPhotoSampleBuffer];
     UIImage * image = [UIImage imageWithData:dataImage];
     UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
+    NSLog(@"保存成功");
 }
 - (void)captureOutput:(AVCapturePhotoOutput *)captureOutput didFinishCaptureForResolvedSettings:(AVCaptureResolvedPhotoSettings *)resolvedSettings error:(NSError *)error{
     

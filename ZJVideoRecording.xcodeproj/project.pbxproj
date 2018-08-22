@@ -22,6 +22,14 @@
 		18EE50B61F70013400A5C606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EE50B41F70013400A5C606 /* Main.storyboard */; };
 		18EE50B81F70013400A5C606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EE50B71F70013400A5C606 /* Assets.xcassets */; };
 		18EE50BB1F70013400A5C606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EE50B91F70013400A5C606 /* LaunchScreen.storyboard */; };
+		7ACE0A3F212BFA540083B3CA /* ZJVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE0A3E212BFA540083B3CA /* ZJVideoController.m */; };
+		7ACE0A42212BFA7B0083B3CA /* ZJModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE0A41212BFA7B0083B3CA /* ZJModel.m */; };
+		7ACE0A45212BFAB90083B3CA /* ZJAssetWriteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE0A44212BFAB90083B3CA /* ZJAssetWriteManager.m */; };
+		7ACE0A48212BFACF0083B3CA /* ZJVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE0A47212BFACF0083B3CA /* ZJVideoView.m */; };
+		7ACE0A4B212BFFC10083B3CA /* FMVideoPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE0A4A212BFFC10083B3CA /* FMVideoPlayController.m */; };
+		7ACE0A53212C00930083B3CA /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE0A4E212C00930083B3CA /* UIColor+Hex.m */; };
+		7ACE0A54212C00930083B3CA /* XCFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE0A4F212C00930083B3CA /* XCFileManager.m */; };
+		7ACE0A55212C00930083B3CA /* FMRecordProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE0A50212C00930083B3CA /* FMRecordProgressView.m */; };
 		ABFF191EDAE9DDAF1C83C6EE /* Pods_ZJVideoRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D15C4EA4E064CA836E2720 /* Pods_ZJVideoRecording.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +64,23 @@
 		18EE50BA1F70013400A5C606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18EE50BC1F70013400A5C606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AB3909CFA3A09DF4F8EDCF7 /* Pods-ZJVideoRecording.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJVideoRecording.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJVideoRecording/Pods-ZJVideoRecording.debug.xcconfig"; sourceTree = "<group>"; };
+		7ACE0A3D212BFA540083B3CA /* ZJVideoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJVideoController.h; sourceTree = "<group>"; };
+		7ACE0A3E212BFA540083B3CA /* ZJVideoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJVideoController.m; sourceTree = "<group>"; };
+		7ACE0A40212BFA7B0083B3CA /* ZJModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJModel.h; sourceTree = "<group>"; };
+		7ACE0A41212BFA7B0083B3CA /* ZJModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJModel.m; sourceTree = "<group>"; };
+		7ACE0A43212BFAB90083B3CA /* ZJAssetWriteManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJAssetWriteManager.h; sourceTree = "<group>"; };
+		7ACE0A44212BFAB90083B3CA /* ZJAssetWriteManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJAssetWriteManager.m; sourceTree = "<group>"; };
+		7ACE0A46212BFACF0083B3CA /* ZJVideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJVideoView.h; sourceTree = "<group>"; };
+		7ACE0A47212BFACF0083B3CA /* ZJVideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJVideoView.m; sourceTree = "<group>"; };
+		7ACE0A49212BFFC10083B3CA /* FMVideoPlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMVideoPlayController.h; sourceTree = "<group>"; };
+		7ACE0A4A212BFFC10083B3CA /* FMVideoPlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMVideoPlayController.m; sourceTree = "<group>"; };
+		7ACE0A4D212C00930083B3CA /* FMRecordProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMRecordProgressView.h; sourceTree = "<group>"; };
+		7ACE0A4E212C00930083B3CA /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		7ACE0A4F212C00930083B3CA /* XCFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCFileManager.m; sourceTree = "<group>"; };
+		7ACE0A50212C00930083B3CA /* FMRecordProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMRecordProgressView.m; sourceTree = "<group>"; };
+		7ACE0A51212C00930083B3CA /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		7ACE0A52212C00930083B3CA /* XCFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCFileManager.h; sourceTree = "<group>"; };
+		7ACE0A56212C048B0083B3CA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		95D15C4EA4E064CA836E2720 /* Pods_ZJVideoRecording.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJVideoRecording.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C020D06B05C79A431DC879AB /* Pods-ZJVideoRecording.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJVideoRecording.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJVideoRecording/Pods-ZJVideoRecording.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,12 +148,16 @@
 		18EE50AA1F70013400A5C606 /* ZJVideoRecording */ = {
 			isa = PBXGroup;
 			children = (
+				7ACE0A4C212C00930083B3CA /* Tool */,
+				7ACE0A3C212BF5070083B3CA /* ZJVideoRecord */,
 				1811D0D61F73B3E400352CB2 /* ZJTabBar */,
 				1811D0D21F73B27500352CB2 /* ZJPhotograph */,
 				18EE50AE1F70013400A5C606 /* AppDelegate.h */,
 				18EE50AF1F70013400A5C606 /* AppDelegate.m */,
 				18EE50B11F70013400A5C606 /* ViewController.h */,
 				18EE50B21F70013400A5C606 /* ViewController.m */,
+				7ACE0A49212BFFC10083B3CA /* FMVideoPlayController.h */,
+				7ACE0A4A212BFFC10083B3CA /* FMVideoPlayController.m */,
 				1811D0D11F73B03700352CB2 /* ZJCommonHeader.h */,
 				1811D0E61F73B45700352CB2 /* MyTabBarController.h */,
 				1811D0E71F73B45700352CB2 /* MyTabBarController.m */,
@@ -136,6 +165,7 @@
 				18EE50B71F70013400A5C606 /* Assets.xcassets */,
 				18EE50B91F70013400A5C606 /* LaunchScreen.storyboard */,
 				18EE50BC1F70013400A5C606 /* Info.plist */,
+				7ACE0A56212C048B0083B3CA /* PrefixHeader.pch */,
 				18EE50AB1F70013400A5C606 /* Supporting Files */,
 			);
 			path = ZJVideoRecording;
@@ -147,6 +177,34 @@
 				18EE50AC1F70013400A5C606 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7ACE0A3C212BF5070083B3CA /* ZJVideoRecord */ = {
+			isa = PBXGroup;
+			children = (
+				7ACE0A3D212BFA540083B3CA /* ZJVideoController.h */,
+				7ACE0A3E212BFA540083B3CA /* ZJVideoController.m */,
+				7ACE0A40212BFA7B0083B3CA /* ZJModel.h */,
+				7ACE0A41212BFA7B0083B3CA /* ZJModel.m */,
+				7ACE0A43212BFAB90083B3CA /* ZJAssetWriteManager.h */,
+				7ACE0A44212BFAB90083B3CA /* ZJAssetWriteManager.m */,
+				7ACE0A46212BFACF0083B3CA /* ZJVideoView.h */,
+				7ACE0A47212BFACF0083B3CA /* ZJVideoView.m */,
+			);
+			path = ZJVideoRecord;
+			sourceTree = "<group>";
+		};
+		7ACE0A4C212C00930083B3CA /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				7ACE0A51212C00930083B3CA /* UIColor+Hex.h */,
+				7ACE0A4E212C00930083B3CA /* UIColor+Hex.m */,
+				7ACE0A52212C00930083B3CA /* XCFileManager.h */,
+				7ACE0A4F212C00930083B3CA /* XCFileManager.m */,
+				7ACE0A4D212C00930083B3CA /* FMRecordProgressView.h */,
+				7ACE0A50212C00930083B3CA /* FMRecordProgressView.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		B91BB5B7190C18F71134C285 /* Frameworks */ = {
@@ -200,7 +258,7 @@
 				TargetAttributes = {
 					18EE50A71F70013400A5C606 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = XX9353D4G7;
+						DevelopmentTeam = 2FFNFZE3QD;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -292,14 +350,22 @@
 				18EE50B31F70013400A5C606 /* ViewController.m in Sources */,
 				1811D0E51F73B3E400352CB2 /* ZJTabBarItem.m in Sources */,
 				1811D0D51F73B28700352CB2 /* ZJPhotograph.m in Sources */,
+				7ACE0A42212BFA7B0083B3CA /* ZJModel.m in Sources */,
 				1811D0E81F73B45700352CB2 /* MyTabBarController.m in Sources */,
 				1811D0E11F73B3E400352CB2 /* ZJNavigationController.m in Sources */,
 				1811D0E41F73B3E400352CB2 /* ZJTabBarController.m in Sources */,
 				1811D0E21F73B3E400352CB2 /* ZJTabBar.m in Sources */,
+				7ACE0A54212C00930083B3CA /* XCFileManager.m in Sources */,
+				7ACE0A3F212BFA540083B3CA /* ZJVideoController.m in Sources */,
 				18EE50B01F70013400A5C606 /* AppDelegate.m in Sources */,
+				7ACE0A45212BFAB90083B3CA /* ZJAssetWriteManager.m in Sources */,
+				7ACE0A4B212BFFC10083B3CA /* FMVideoPlayController.m in Sources */,
 				1811D0EB1F73B60300352CB2 /* ZJPhotographBottomView.m in Sources */,
+				7ACE0A53212C00930083B3CA /* UIColor+Hex.m in Sources */,
+				7ACE0A55212C00930083B3CA /* FMRecordProgressView.m in Sources */,
 				18EE50AD1F70013400A5C606 /* main.m in Sources */,
 				1811D0EE1F73BDB000352CB2 /* ZJPhotographTopView.m in Sources */,
+				7ACE0A48212BFACF0083B3CA /* ZJVideoView.m in Sources */,
 				1811D0E31F73B3E400352CB2 /* ZJTabBarButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,10 +489,11 @@
 			baseConfigurationReference = 5AB3909CFA3A09DF4F8EDCF7 /* Pods-ZJVideoRecording.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XX9353D4G7;
+				DEVELOPMENT_TEAM = 2FFNFZE3QD;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJVideoRecording/PrefixHeader.pch";
 				INFOPLIST_FILE = ZJVideoRecording/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhegnju.ZJVideoRecording;
+				PRODUCT_BUNDLE_IDENTIFIER = zsw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -436,10 +503,11 @@
 			baseConfigurationReference = C020D06B05C79A431DC879AB /* Pods-ZJVideoRecording.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XX9353D4G7;
+				DEVELOPMENT_TEAM = 2FFNFZE3QD;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJVideoRecording/PrefixHeader.pch";
 				INFOPLIST_FILE = ZJVideoRecording/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhegnju.ZJVideoRecording;
+				PRODUCT_BUNDLE_IDENTIFIER = zsw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
