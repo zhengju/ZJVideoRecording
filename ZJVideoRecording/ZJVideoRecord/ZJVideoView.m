@@ -215,9 +215,14 @@
         [self updateViewWithRecording];
     } else  if (recordState == ZJRecordStateFinish) {
         [self updateViewWithStop];
-        if (self.delegate && [self.delegate respondsToSelector:@selector(recordFinishWithvideoUrl:)]) {
-            [self.delegate recordFinishWithvideoUrl:self.fmodel.videoUrl];
-        }
+        //添加水印
+        [self.fmodel AVsaveVideoPath:self.fmodel.videoUrl WithWaterImg:[UIImage imageNamed:@"切换"] WithCoverImage:[UIImage imageNamed:@"切换"] WithQustion:@"添加水印测试" WithFileName:@"waterVideo" withCallBack:^{
+            if (self.delegate && [self.delegate respondsToSelector:@selector(recordFinishWithvideoUrl:)]) {
+                [self.delegate recordFinishWithvideoUrl:self.fmodel.videoUrl2];
+            }
+        }];
+        
+        
     }
 }
 

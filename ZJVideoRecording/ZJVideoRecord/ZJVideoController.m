@@ -61,6 +61,9 @@
     FMVideoPlayController *playVC = [[FMVideoPlayController alloc] init];
     playVC.videoUrl =  videoUrl;
     [self.navigationController pushViewController:playVC animated:YES];
+    
+    
+    
 }
 
 @end

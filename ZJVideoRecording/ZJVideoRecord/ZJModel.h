@@ -28,8 +28,9 @@ typedef NS_ENUM(NSInteger, ZJFlashState) {
 @property (nonatomic, weak  ) id<ZJModelDelegate>delegate;
 @property (nonatomic, assign) ZJRecordState recordState;
 @property (nonatomic, strong, readonly) NSURL *videoUrl;
+@property (nonatomic, strong, readonly) NSURL *videoUrl2;
 - (instancetype)initWithFMVideoViewType:(ZJVideoViewType )type superView:(UIView *)superView;
-
+- (void)AVsaveVideoPath:(NSURL*)videoPath WithWaterImg:(UIImage*)img WithCoverImage:(UIImage*)coverImg WithQustion:(NSString*)question WithFileName:(NSString*)fileName withCallBack:(void(^)())callback;
 - (void)turnCameraAction;
 - (void)switchflash;
 - (void)startRecord;
