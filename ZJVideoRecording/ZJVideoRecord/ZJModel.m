@@ -136,6 +136,7 @@
     }
     
     self.videoOutput = [[AVCaptureVideoDataOutput alloc] init];
+   
     self.videoOutput.alwaysDiscardsLateVideoFrames = YES; //立即丢弃旧帧，节省内存，默认YES
     [self.videoOutput setSampleBufferDelegate:self queue:self.videoQueue];
     if ([self.session canAddOutput:self.videoOutput]) {
@@ -390,6 +391,10 @@
         //视频
         if (connection == [self.videoOutput connectionWithMediaType:AVMediaTypeVideo]) {
             
+            
+            
+            
+            
             if (!self.writeManager.outputVideoFormatDescription) {
                 @synchronized(self) {
                     CMFormatDescriptionRef formatDescription = CMSampleBufferGetFormatDescription(sampleBuffer);
@@ -427,7 +432,6 @@
     }
     
 }
-
 
 #pragma mark - AVAssetWriteManagerDelegate
 - (void)updateWritingProgress:(CGFloat)progress

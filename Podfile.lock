@@ -14,16 +14,25 @@ PODS:
   - BlocksKit/UIKit (2.2.5):
     - BlocksKit/Core
     - BlocksKit/DynamicDelegate
+  - GPUImage (0.1.7)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
   - BlocksKit (~> 2.2.5)
+  - GPUImage
   - Masonry
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BlocksKit
+    - GPUImage
+    - Masonry
 
 SPEC CHECKSUMS:
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 9649436b46be895fd98eaf436a8dc1316835b006
+PODFILE CHECKSUM: 274e1ffacacf2c85854ece892fd8c8d0b78323b3
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.5.3

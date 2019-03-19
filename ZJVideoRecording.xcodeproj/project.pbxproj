@@ -22,6 +22,7 @@
 		18EE50B61F70013400A5C606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EE50B41F70013400A5C606 /* Main.storyboard */; };
 		18EE50B81F70013400A5C606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EE50B71F70013400A5C606 /* Assets.xcassets */; };
 		18EE50BB1F70013400A5C606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EE50B91F70013400A5C606 /* LaunchScreen.storyboard */; };
+		7A8AEB1521355E8E00797CE7 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A8AEB1321355E8D00797CE7 /* GPUImageBeautifyFilter.m */; };
 		7ABF83C0212D739700F5F7FA /* sintel.mov in Resources */ = {isa = PBXBuildFile; fileRef = 7ABF83BF212D739700F5F7FA /* sintel.mov */; };
 		7ACE0A3F212BFA540083B3CA /* ZJVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE0A3E212BFA540083B3CA /* ZJVideoController.m */; };
 		7ACE0A42212BFA7B0083B3CA /* ZJModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE0A41212BFA7B0083B3CA /* ZJModel.m */; };
@@ -65,6 +66,8 @@
 		18EE50BA1F70013400A5C606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18EE50BC1F70013400A5C606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AB3909CFA3A09DF4F8EDCF7 /* Pods-ZJVideoRecording.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJVideoRecording.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJVideoRecording/Pods-ZJVideoRecording.debug.xcconfig"; sourceTree = "<group>"; };
+		7A8AEB1321355E8D00797CE7 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		7A8AEB1421355E8D00797CE7 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
 		7ABF83BF212D739700F5F7FA /* sintel.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sintel.mov; sourceTree = "<group>"; };
 		7ACE0A3D212BFA540083B3CA /* ZJVideoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJVideoController.h; sourceTree = "<group>"; };
 		7ACE0A3E212BFA540083B3CA /* ZJVideoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJVideoController.m; sourceTree = "<group>"; };
@@ -159,6 +162,8 @@
 				18EE50AF1F70013400A5C606 /* AppDelegate.m */,
 				18EE50B11F70013400A5C606 /* ViewController.h */,
 				18EE50B21F70013400A5C606 /* ViewController.m */,
+				7A8AEB1421355E8D00797CE7 /* GPUImageBeautifyFilter.h */,
+				7A8AEB1321355E8D00797CE7 /* GPUImageBeautifyFilter.m */,
 				7ACE0A49212BFFC10083B3CA /* FMVideoPlayController.h */,
 				7ACE0A4A212BFFC10083B3CA /* FMVideoPlayController.m */,
 				1811D0D11F73B03700352CB2 /* ZJCommonHeader.h */,
@@ -239,7 +244,6 @@
 				18EE50A51F70013400A5C606 /* Frameworks */,
 				18EE50A61F70013400A5C606 /* Resources */,
 				C29EEE468E75327E5D29843C /* [CP] Embed Pods Frameworks */,
-				34CAC73C7DAFF06AC71E8018 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,34 +303,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		34CAC73C7DAFF06AC71E8018 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJVideoRecording/Pods-ZJVideoRecording-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		804C9918769B6E9A1865B729 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZJVideoRecording-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C29EEE468E75327E5D29843C /* [CP] Embed Pods Frameworks */ = {
@@ -335,9 +327,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZJVideoRecording/Pods-ZJVideoRecording-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BlocksKit/BlocksKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlocksKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPUImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -354,6 +353,7 @@
 				18EE50B31F70013400A5C606 /* ViewController.m in Sources */,
 				1811D0E51F73B3E400352CB2 /* ZJTabBarItem.m in Sources */,
 				1811D0D51F73B28700352CB2 /* ZJPhotograph.m in Sources */,
+				7A8AEB1521355E8E00797CE7 /* GPUImageBeautifyFilter.m in Sources */,
 				7ACE0A42212BFA7B0083B3CA /* ZJModel.m in Sources */,
 				1811D0E81F73B45700352CB2 /* MyTabBarController.m in Sources */,
 				1811D0E11F73B3E400352CB2 /* ZJNavigationController.m in Sources */,
